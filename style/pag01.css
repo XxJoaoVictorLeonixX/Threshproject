@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(to right,#072D38,#134E56,#1A818B);
+    background-image: linear-gradient(to right,#072d38, #134e56,#1a818b);
     width: 100%;
 }
 header{
