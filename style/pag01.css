@@ -10,6 +10,7 @@
 }
 body{
     background-image: linear-gradient(to right,#072D38,#134E56,#1A818B);
+    width: 100%;
 }
 header{
     margin-top: 20px;
@@ -51,7 +52,7 @@ header > h1{
     margin-right: 25px;
 }
 .imgthresh img{
-    max-width: 650px;
+    width: 650px;
 }
 .baixo{
     display: flex;
@@ -70,9 +71,9 @@ header > h1{
     margin-bottom: 25px;
 }
 .skill img{
-    max-width: 80px;
+    width: 80px;
     border-radius: 50%;
-    margin-right: 18px;
+    margin-right: 20px;
     transition: all .3s ease-in-out;
 }
 .video{
@@ -81,7 +82,7 @@ header > h1{
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.534);
 }
 .video video{
-    max-width: 650px;
+    width: 650px;
 }
 .skill img:hover{
     transform: translateY(-10px);
