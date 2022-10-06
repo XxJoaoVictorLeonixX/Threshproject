@@ -1,1 +1,89 @@
 @charset "UTF-8";
+@font-face {
+    font-family: sectar;
+    src: url(../fonts/sectar/Sectar.otf)
+}
+@font-face {
+    font-family: trenches;
+    src: url(../fonts/trenches/Trenches\ Demo.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-image: linear-gradient(to right,#835AB6,#433581,#121532);
+}
+header{
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+header h1{
+    color: #9946ff;
+    text-align: center;
+    font-family: sectar;
+    text-align: center;
+    font-size: 4.3em;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+.cima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.passiva{
+    margin-left: 330px;
+}
+.passiva img{
+    border-radius: 50%;
+    width: 175px;
+}
+.text{
+    margin-right: 200px;
+    background-color: rgba(255, 255, 255, 0.658);
+    height: 200px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.486);
+}
+.text p{
+    width: 500px;
+    text-justify: auto;
+    font-size: 1.5em;
+    color: #280850;
+    font-family: sectar;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.336);
+    padding: 15px;
+    text-align: center;
+}
+.baixo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+.video{
+    margin-top: 110px;
+    margin-right: 40px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.322);
+}
+.darkstar img{
+    width: 750px;
+}
+.darkstar h3{
+    text-align: center;
+    font-family: sectar;
+    font-size: 1.9em;
+    color:#9946ff;
+    text-shadow: 2px 2px 8px black;
+
+}
+.video video{
+    width: 580px;
+}
+span{
+    color: rgb(143, 28, 243);
+}
