@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@font-face {
+    font-family: sectar;
+    src: url(../fonts/sectar/Sectar.otf)
+}
+body{
+    width: 100%;
+    background-image: linear-gradient(to left,#231A2B,#26060F,#75081D);
+}
+header h1{
+    font-family: sectar;
+    color: #fd3f75;
+    text-shadow: 3px 3px 8px black;
+    text-align: center;
+    font-size: 4.4em;
+}
+.cima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+}
+.lanterna{
+    margin-right: 320px;
+}
+.lanterna img{
+    border-radius: 50%;
+    width: 180px;
+}
+.text{
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.308);
+    height: 250px;
+    width: 520px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.486);
+}
+.text p{
+    width: 500px;
+    text-align: center;
+    text-justify: auto;
+    font-size: 1.6em;
+    font-family: sectar;
+    color:black;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.322);
+}
+span{
+    color: #bd073a;
+}
+.baixo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.lua img{
+    width: 760px;
+}
+.lua h3{
+    font-family: sectar;
+    text-align: center;
+    font-size: 1.9em;
+    text-shadow: 3px 3px 8px black;
+    color: #fd3f75;
+}
+.video{
+    margin-top: 222px;
+    margin-left: 10px;
+}
+.video video{
+    width: 580px;
+}

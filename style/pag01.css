@@ -99,3 +99,13 @@ header > h1{
 .skill img:hover{
     transform: translateY(-10px);
 }
+.reveal{
+    position:relative;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@font-face {
+    font-family: sectar;
+    src: url(../fonts/sectar/Sectar.otf)
+}
+body{
+    width: 100%;
+    background-image: linear-gradient(to left, #1C1235,#592F76,#E374ED);
+}
+header{
+    margin-bottom: 130px;
+}
+header h1{
+    text-align: center;
+    font-family: sectar;
+    font-size: 4.4em;
+    color: #f2b1f8;
+    text-shadow: 3px 3px 8px black;
+}
+.cima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    margin-left: 280px;
+}
+.text{
+    margin-right: 145px;
+    background-color: rgba(255, 255, 255, 0.308);
+    height: 250px;
+    width: 520px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.342);
+}
+
+.box img{
+    border-radius: 50%;
+    width: 180px;
+}
+.text p{
+    width: 500px;
+    text-align: center;
+    text-justify: auto;
+    font-family: sectar;
+    font-size: 2.2em;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
+}
+.baixo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.florescer img{
+    width: 750px;
+}
+.florescer h3{
+    text-align: center;
+    font-family: sectar;
+    font-size: 1.9em;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.322);
+}
+.video{
+    margin-right: 30px;
+}
+.video video{
+    width: 580px;
+}
+span{
+    color: #6c12ac;
+}
