@@ -3,3 +3,74 @@
     font-family: sectar;
     src: url(../fonts/sectar/Sectar.otf)
 }
+body{
+    background-image: linear-gradient(to left, #021A5D,#2a8fa3,#479eeb);
+    width: 100%;
+}
+header{
+    margin-bottom: 100px;
+}
+header > h1{
+    text-align: center;
+    font-family: sectar;
+    color: lightgray ;
+    text-shadow:  3px 3px 8px rgb(0, 0, 0);
+    font-size: 4.4em;
+}
+.cima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hook{
+    margin-right: 310px;
+}
+.hook img{
+    border-radius: 50%;
+    width: 180px;
+}
+.text{
+    margin-left: 200px;
+    background-color: rgba(255, 255, 255, 0.253);
+    height: 220px;
+    width: 520px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.486);
+}
+.text p{
+    width: 500px;
+    text-justify: auto;
+    font-size: 1.5em;
+    font-family: sectar;
+    color: black;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.438);
+    text-align: center;
+}
+span{
+    color: rgb(34, 34, 168);
+}
+.baixo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 135px;
+}
+.campeonato img{
+    width: 750px;
+    margin-bottom: 40px;
+}
+.campeonato h3{
+    text-align: center;
+    font-family: sectar;
+    font-size: 1.9em;
+    color: rgb(191, 190, 194);
+    text-shadow: 3px 3px 8px rgb(0, 0, 0);
+}
+.video{
+    margin-left: 20px;
+    margin-top: 155px;
+}
+.video video{
+    width: 580px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.342);
+}
