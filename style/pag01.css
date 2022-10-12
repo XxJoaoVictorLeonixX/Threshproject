@@ -14,7 +14,8 @@
 }
 body{
     background-image: linear-gradient(to right,#072d38, #134e56,#1a818b);
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 header{
     margin-top: 20px;
@@ -99,13 +100,55 @@ header > h1{
 .skill img:hover{
     transform: translateY(-10px);
 }
-.reveal{
-    position:relative;
-    transform: translateY(144px);
-    opacity: 0;
-    transition: 1s all ease;
-}
-.reveal.active{
-    transform: translateY(0);
-    opacity: 1;
+
+
+@media screen and (min-width:490px) and (max-width:600px){
+    header h1{
+        font-size: 2.8em;
+        text-align: center;
+    }
+    .meio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text p{
+        margin: 0 auto;
+        width: 350px;
+        font-size: 1.3em;
+    }
+    .text{
+        width: 400px;
+        height: 550px;
+        margin: 0 auto;
+    }
+    .imgthresh{
+        margin-top: 60px;
+        margin-left: 25px;
+    }
+    .imgthresh img{
+        width: 485px;
+    }
+    .baixo{
+        display: flex;
+        flex-direction: column;
+    }
+    .video{
+        margin: 0 auto;
+    }
+    .video video{
+        margin-right: 10px;
+        width: 445px;
+    }
+    .skill{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 10px;
+    }
+    .skill h3{
+        font-size: 1.8em;
+    }
+    .skill img{
+        width: 65px ;
+    }
 }

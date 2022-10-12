@@ -74,3 +74,57 @@ span{
     width: 580px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.342);
 }
+
+@media screen and (min-width:490px) and (max-width:600px){
+    header{
+        margin-top: 30px;
+    }
+    header h1{
+        font-size: 2.8em;
+        text-align: center;
+    }
+    .cima{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+    .hook{
+        margin: 0 auto;
+    }
+    .hook img{
+        margin-bottom: 50px;
+        margin-top: 45px;
+    }
+    .text{
+        margin: 0 auto;
+        height: 280px;
+        width: 430px;
+    }
+    .text p{
+        width: 500px;
+        font-size: 1.8em;
+        margin: 0 auto;
+        height: 280px;
+        width: 430px;
+        text-justify: auto;
+    }
+    .baixo{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 350px;
+    }
+    .campeonato img{
+        width: 535px;
+    }
+    .video{
+        margin: 0 auto;
+    }
+    .video video{
+        margin-right: 12px;
+        width: 450px;
+        margin-top: 30px;
+    }
+    .campeonato h3{
+        font-size: 1.5em;
+    }
+}
