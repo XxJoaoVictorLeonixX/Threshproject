@@ -102,7 +102,7 @@ header > h1{
 }
 
 
-@media screen and (min-width:490px) and (max-width:600px){
+@media screen and (max-width:430px){
     header h1{
         font-size: 2.8em;
         text-align: center;
@@ -114,12 +114,12 @@ header > h1{
     }
     .text p{
         margin: 0 auto;
-        width: 350px;
+        width: 320px;
         font-size: 1.3em;
     }
     .text{
-        width: 400px;
-        height: 550px;
+        width: 350px;
+        height: 600px;
         margin: 0 auto;
     }
     .imgthresh{
@@ -127,7 +127,7 @@ header > h1{
         margin-left: 25px;
     }
     .imgthresh img{
-        width: 485px;
+        width: 410px;
     }
     .baixo{
         display: flex;
@@ -137,8 +137,7 @@ header > h1{
         margin: 0 auto;
     }
     .video video{
-        margin-right: 10px;
-        width: 445px;
+        width: 380px;
     }
     .skill{
         margin-top: 40px;
@@ -149,6 +148,6 @@ header > h1{
         font-size: 1.8em;
     }
     .skill img{
-        width: 65px ;
+        width: 55px ;
     }
 }

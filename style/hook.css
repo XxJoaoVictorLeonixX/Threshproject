@@ -75,56 +75,55 @@ span{
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.342);
 }
 
-@media screen and (min-width:490px) and (max-width:600px){
-    header{
-        margin-top: 30px;
-    }
+@media screen and (max-width:430px){
     header h1{
-        font-size: 2.8em;
+        font-size: 3em;
         text-align: center;
     }
     .cima{
         display: flex;
         flex-direction: column;
-        margin-bottom: 150px;
+        align-items: center;
     }
     .hook{
         margin: 0 auto;
     }
     .hook img{
-        margin-bottom: 50px;
+        width: 180px;
+        margin-bottom: 45px;
         margin-top: 45px;
     }
-    .text{
-        margin: 0 auto;
-        height: 280px;
-        width: 430px;
-    }
     .text p{
-        width: 500px;
-        font-size: 1.8em;
         margin: 0 auto;
-        height: 280px;
-        width: 430px;
-        text-justify: auto;
+        width: 320px;
+        font-size: 1.9em;
+    }
+    .text{
+        width: 350px;
+        height: 420px;
+        margin: 0 auto;
+    }
+    .campeonato{
+        margin-top: 60px;
+        margin-bottom: 25px;
+    }
+    .campeonato h3{
+        font-size: 1.6em;
+    }
+    .campeonato img{
+        width: 440px;
     }
     .baixo{
         display: flex;
         flex-direction: column;
-        margin-bottom: 350px;
-    }
-    .campeonato img{
-        width: 535px;
+        margin-bottom: 300px;
     }
     .video{
         margin: 0 auto;
     }
     .video video{
         margin-right: 12px;
-        width: 450px;
-        margin-top: 30px;
+        width: 380px;
     }
-    .campeonato h3{
-        font-size: 1.5em;
-    }
+    
 }

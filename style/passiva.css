@@ -92,50 +92,53 @@ span{
     color: rgb(143, 28, 243);
 }
 
-@media screen and (min-width:490px) and (max-width:600px){
-    header{
-        margin-top: 30px;
-    }
+@media screen and (max-width:430px){
     header h1{
-        font-size: 2.3em;
+        font-size: 2em;
         text-align: center;
     }
     .cima{
         display: flex;
         flex-direction: column;
-        margin-bottom: 100px;
+        align-items: center;
     }
     .passiva{
         margin: 0 auto;
     }
     .passiva img{
-        margin-bottom: 50px;
-    }
-    .text{
-        margin: 0 auto;
-        height: 320px;
-        width: 440px;
+        width: 180px;
+        margin-bottom: 45px;
     }
     .text p{
-        width: 440px;
-        font-size: 2em;
+        margin: 0 auto;
+        width: 320px;
+        font-size: 1.8em;
+    }
+    .text{
+        width: 350px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .darkstar{
+        margin-top: 60px;
+        margin-bottom: 25px;
+    }
+    .darkstar h3{
+        font-size: 1.8em;
+    }
+    .darkstar img{
+        width: 430px;
     }
     .baixo{
         display: flex;
         flex-direction: column;
-        margin-bottom: 270px;
-    }
-    .darkstar img{
-        width: 550px;
+        margin-bottom: 300px;
     }
     .video{
         margin: 0 auto;
     }
     .video video{
-        width: 450px;
-        margin-top: 30px;
+        width: 380px;
     }
-    .darkstar h3{
-        font-size: 1.5em;
-    }
+    
 }

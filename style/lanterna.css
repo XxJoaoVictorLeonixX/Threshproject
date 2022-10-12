@@ -70,56 +70,55 @@ span{
     width: 580px;
 }
 
-@media screen and (min-width:490px) and (max-width:600px){
-    header{
-        margin-top: 40px;
-    }
+@media screen and (max-width:430px){
     header h1{
-        font-size: 2.5em;
+        font-size: 3em;
         text-align: center;
     }
     .cima{
         display: flex;
         flex-direction: column;
-        margin-bottom: 150px;
+        align-items: center;
     }
     .lanterna{
         margin: 0 auto;
     }
     .lanterna img{
-        margin-bottom: 50px;
+        width: 180px;
+        margin-bottom: 45px;
         margin-top: 45px;
     }
-    .text{
-        margin: 0 auto;
-        height: 295px;
-        width: 430px;
-    }
     .text p{
-        width: 500px;
-        font-size: 1.7em;
         margin: 0 auto;
-        height: 290px;
-        width: 430px;
-        text-justify: auto;
+        width: 320px;
+        font-size: 1.9em;
+    }
+    .text{
+        width: 350px;
+        height: 450px;
+        margin: 0 auto;
+    }
+    .lua{
+        margin-top: 60px;
+        margin-bottom: 25px;
+    }
+    .lua h3{
+        font-size: 1.6em;
+    }
+    .lua img{
+        width: 440px;
     }
     .baixo{
         display: flex;
         flex-direction: column;
-        margin-bottom: 350px;
-    }
-    .lua img{
-        width: 510px;
+        margin-bottom: 300px;
     }
     .video{
         margin: 0 auto;
     }
     .video video{
         margin-right: 12px;
-        width: 450px;
-        margin-top: 30px;
+        width: 380px;
     }
-    .lua h3{
-        font-size: 1.5em;
-    }
+    
 }
